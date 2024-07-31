@@ -1,0 +1,221 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* estilos para el contenedor principal */
+
+.contenedor-principal{
+  width: 100%;
+  height: 100vh;
+  color: white;
+}
+
+/* estilos para el header */
+
+.header{
+  width: 100%;
+  height: 85px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(15, 12, 32);
+}
+
+.titulo-header{
+  color: rgb(255, 255, 255);
+}
+
+/* estilos para el cuerpo de la pagina */
+
+.cuerpo{
+  width: 100%;
+  height: 550px;
+  margin-top: 30px;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+
+}
+
+.seccion{
+  /* outline: 1px solid red; */
+  width: 1100px;
+  display: flex;
+  justify-content: center;
+  overflow: scroll;
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color:black;
+  font-weight: bold;
+}
+
+/* estilos para el menu */
+
+.menu{
+  /* outline: 1px solid red; */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 220px;
+  padding: 10px;
+  background-color: white;
+  height: 130px;
+  /* background-color: rgb(8, 5, 170); */
+}
+
+li{
+  margin-bottom: 10px;
+}
+
+
+/* estilos para el menu */
+
+.cont-icono img, a {
+  display: block;
+}
+
+.cont-icono{
+  display: flex;
+  align-items: end;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+/* estilos para el formulario */
+
+.container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    height: 700px;
+    /* max-width: 400px;   */
+}
+
+/* Heading styles */
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Form label styles */
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: black;
+    font-weight: bold;
+}
+
+/* Input and button styles */
+input[type="text"],
+input[type="number"],
+input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Button styles */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+/* estilos para la tabla de estudiantes */
+
+
+.container-lista {
+  width: 1100px;
+  /* outline: 1px solid red; */
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.486);
+  padding: 10px;
+  color: black;
+  height: 530px;
+  /* margin: auto; */
+  overflow: hidden;
+}
+
+h1 {
+  text-align: center;
+  /* margin: 20px 0; */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+button {
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  margin-right: 5px;
+  font-size: 14px;
+}
+
+.edit-btn {
+  background-color: #4CAF50;
+  padding: 10px 0px;
+}
+
+.delete-btn {
+  margin-top: 10px;
+  padding: 10px 0px;
+  background-color: #f44336;
+}
+
+.edit-btn:hover {
+  background-color: #45a049;
+}
+
+.delete-btn:hover {
+  background-color: #e53935;
+}
